@@ -1,20 +1,20 @@
-const db = require("../db/connect")
+const db = require('../db/connect')
 
-const User = db.define("user", {
+const User = db.define('user', {
   id: {
     type: db.INTEGER,
     autoIncrement: true,
     primaryKey: true,
-    allowNull: false
+    allowNull: false,
   },
   name: {
     type: db.STRING,
-    allowNull: false
+    allowNull: false,
   },
   email: {
     type: db.INTEGER,
-    allowNull: false
-  }
+    allowNull: false,
+  },
 })
 
 module.exports.User

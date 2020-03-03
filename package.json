@@ -10,7 +10,8 @@
     "start": "webpack-dev-server --mode development --open ",
     "connect": "node src/db/connect.js",
     "server": "nodemon --exec yarn connect",
-    "app": "concurrently \"yarn server\"  \"yarn start\""
+    "app": "concurrently \"yarn server\"  \"yarn start\"",
+    "prettier": "prettier --print-width 80 --no-semi --single-quote --trailing-comma es5 --write src/**/*.js"
   },
   "keywords": [
     "javascript",
@@ -37,6 +38,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "pg": "^7.17.1",
     "postcss-loader": "^3.0.0",
+    "prettier": "1.19.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "uglifyjs-webpack-plugin": "^2.1.3",
