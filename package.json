@@ -51,7 +51,7 @@
     "@babel/polyfill": "^7.4.4",
     "@babel/runtime": "^7.7.5",
     "autoprefixer": "^9.6.1",
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "child_process": "^1.0.2",
     "concurrency": "^0.1.4",
     "concurrently": "^5.0.2",
